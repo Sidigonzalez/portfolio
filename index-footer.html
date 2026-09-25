@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Il mio portfolio</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-logo"> DANIEL GONZALEZ </div>
+    <ul class="nav-links">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#consigli">DESCRIZIONE</a></li>
+      <li><a href="#piante">FSL</a></li>
+      <li><a href="#contatti">ED. CIVICA</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header" id="home">
+    <h1>Benvenuti nel mio portfolio</h1>
+    <p>Idee, competenze e progetti: questo è il mio percorso<p>
+  </header>
+
+  <!-- Sezione Consigli -->
+  <section class="section consigli" id="consigli">
+    <h2>🌸 Consigli di base</h2>
+    <!-- Colonna con i consigli -->
+    <div class="consigli-layout">
+        <ul>
+            <li>Annaffia le piante al mattino presto o alla sera.</li>
+            <li>Usa terriccio di qualità.</li>
+            <li>Posiziona le piante in base alle loro esigenze di luce.</li>
+            <li>Assicurati che i vasi abbiano un buon drenaggio.</li>
+            <li>Concima regolarmente durante la stagione di crescita.</li>
+            <li>Controlla le piante per parassiti e malattie.</li>
+            <li>Pota le piante per favorire una crescita sana.</li>
+        </ul>
+    <!-- Colonna con il video -->
+     <iframe class="video" src="https://www.youtube.com/embed/rWbVYWX5lRE?si=KJcCrEPNdyjbyMsX" 
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  
+  </section>
+
+  <!-- Sezione Piante -->
+  <section class="section plants" id="piante">
+    <h2>🌱 Alcune piante popolari</h2>
+    <div class="plant-list">
+      <div class="plant">
+        <img src="basilico.jpg" alt="Basilico">
+        <h3>Basilico</h3>
+        <p>Perfetto per l’orto e per insaporire i tuoi piatti.</p>
+      </div>
+      <div class="plant">
+        <img src="lavanda.jpg" alt="Lavanda">
+        <h3>Lavanda</h3>
+        <p>Pianta resistente e profumata, ottima anche per balconi.</p>
+      </div>
+      <div class="plant">
+        <img src="rosa.jpg" alt="Rosa">
+        <h3>Rosa</h3>
+        <p>Un classico del giardinaggio, simbolo di bellezza e cura.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer"> 
+    <div class="footer-info">
+      <div class="footer-lista"> <!--contenitore colonne-->
+        <div class="footer-col"> <!--colonna form-->
+          <h3>Contattami</h3>
+          <form class="form-contatti">
+            <div> <!--contenitore nome form-->
+            <label>Nome</label>
+            <input type="text" id="nome" placeholder="nome" required>
+            </div>
+            <div> <!--contenitore cognome form-->
+            <label>Cognome</label>
+            <input type="text" id="cognome" placeholder="cognome" required>
+            </div>
+            <div> <!--contenitore messaggio form-->
+            <label>Messaggio</label>
+            <textarea id="nome" placeholder="Scrivi il testo.." required></textarea>
+            </div>
+            <div> <!--contenitore invia form-->
+              <input type="submit" value="Invia">
+            </div>
+          </form>
+        </div> <!--fine colonna form-->
+        <div class="footer-col"><!--inizio colonna mappa-->
+          <h3>Dove siamo</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1194.259749855796!2d7.661889241200337!3d45.11039422986383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886c2c5946af79%3A0xddd7ad8cd27ca587!2sITTS%20Carlo%20Grassi!5e0!3m2!1sit!2sit!4v1790319678030!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="footer-col">
+          <h3>Link Utili</h3>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#consigli">DESCRIZIONE</a></li>
+            <li><a href="#piante">FSL</a></li>
+            <li><a href="#contatti">ED. CIVICA</a></li>
+          </ul>
+        </div> 
+      </div>
+    </div>
+    <div class="footer-copy">
+      🍀​ Non è la fine di un percorso, ma l'inizio di tutto ciò che posso ancora diventare</p>
+    </div>
+  </footer>
+</body>
+</html>
